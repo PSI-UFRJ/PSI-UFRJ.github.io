@@ -1,1 +1,1 @@
-# PSI-UFRJ.github.io
+# psi-ufrj.github.io
