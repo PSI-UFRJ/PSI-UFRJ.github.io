@@ -3500,6 +3500,12 @@ textarea.form-control-lg {
   border-radius: 0.3rem;
 }
 
+.btn-md, .btn-group-md > .btn {
+  padding: 0.5rem 0.8rem 0.4rem 0.8rem;
+  font-size: 1.15rem;
+  border-radius: 0.25rem;
+}
+
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
