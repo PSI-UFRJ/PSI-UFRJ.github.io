@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5846f9;
+  background: rgba(0, 84, 131, 1);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #7b27d8;
+  background: rgba(0, 84, 131, 1);;
   color: #fff;
 }
 .back-to-top.active {
@@ -116,11 +116,11 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 #header.header-scrolled, #header.header-inner-pages {
   background: rgba(0, 84, 131);
-  padding: 12px 0;
+  padding: 0px 0;
 }
 #header .logo {
   font-size: 32px;
@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #header .logo img {
-  max-height: 100px;
+  max-height: 80px;
 }
 
 /*--------------------------------------------------------------
@@ -399,7 +399,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #5846f9;
+  color: #005483;
 }
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -622,6 +622,7 @@ section {
   width: 300px;
   height: 36px;
   text-align: center;
+  margin-top: 10px;
 }
 
 .services .icon-box .social-links a {
@@ -662,8 +663,10 @@ section {
 }
 .services .icon-box h4 {
   font-weight: 600;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
+  margin: 20px 0px 15px 0;
+  line-height: 0.2;
+  font-size: 20px;
+  color: #2c4964;
 }
 .services .icon-box h4 a {
   color: #2c4964;
@@ -673,6 +676,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  font-weight:bold;
 }
 .services .icon-box:hover {
   border-color: #fff;
@@ -1344,7 +1348,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(0, 84, 131, 0.9) 0%, rgba(0, 84, 131, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 #footer .footer-top {
@@ -1366,7 +1370,13 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
+  margin-left: 50px;
   font-family:  "Baloo 2", cursive;
+  text-align: left;
+}
+
+#footer .footer-top .footer-contact img {
+  max-width: 200px;
 }
 
 #footer .footer-top h4 {
